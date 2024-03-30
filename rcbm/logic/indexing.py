@@ -3,8 +3,8 @@ from collections import defaultdict, OrderedDict
 from typing import List, Dict, Tuple, Set
 import torch
 from torch import Tensor
-from torch_explain.logic.commons import Rule, FOL, Predicate, Domain
-from torch_explain.logic.semantics import Logic
+from rcbm.logic.commons import Rule, FOL, Predicate, Domain
+from rcbm.logic.semantics import Logic
 
 
 

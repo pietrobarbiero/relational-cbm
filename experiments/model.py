@@ -5,8 +5,8 @@ from sklearn.metrics import accuracy_score
 import pytorch_lightning as pl
 from torch.nn import CrossEntropyLoss, BCELoss,NLLLoss, ModuleList, BCEWithLogitsLoss
 
-from torch_explain.logic.indexing import DictBasedIndexer
-from torch_explain.logic.semantics import ProductTNorm, Logic
+from rcbm.logic.indexing import DictBasedIndexer
+from rcbm.logic.semantics import ProductTNorm, Logic
 # from torch_explain.nn.concepts import ConceptReasoningLayer
 
 

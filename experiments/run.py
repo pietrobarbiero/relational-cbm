@@ -7,10 +7,10 @@ import torch
 import os
 import pytorch_lightning as pl
 
-from torch_explain.logic.commons import Rule, Domain
-from torch_explain.logic.grounding import DomainGrounder
-from torch_explain.logic.indexing import DictBasedIndexer
-from torch_explain.logic.semantics import ProductTNorm
+from rcbm.logic.commons import Rule, Domain
+from rcbm.logic.grounding import DomainGrounder
+from rcbm.logic.indexing import DictBasedIndexer
+from rcbm.logic.semantics import ProductTNorm
 
 # disable cuda
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
