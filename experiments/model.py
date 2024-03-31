@@ -283,8 +283,8 @@ class RelationalCBM(RelationalE2E):
 
 
         preds_xformula = indexer.gather_and_concatenate(params = concept_predictions,
-                                                             indices= indexer.indexed_bodies['phi'],
-                                                             dim=0)
+                                                        indices= indexer.indexed_bodies['phi'],
+                                                        dim=0)
 
         # task predictions
         task_predictions, explanations = self._predict_task(preds_xformula, embeddings, explain, mode=mode)
